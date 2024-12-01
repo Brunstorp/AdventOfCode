@@ -2,7 +2,7 @@
 
 lines = open("inputone.txt", "r").readlines()
 N = len(lines)
-sortedleft = [0 for i in range(N)]
+sortedleft =  [0 for i in range(N)]
 sortedright = [0 for i in range(N)]
 sum = 0
 for i,line in enumerate(lines):
