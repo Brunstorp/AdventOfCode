@@ -14,7 +14,6 @@ def find_start(rows,cols,matrix):
                 start_pos = (i, j)
                 return start_pos
     
-
 def rotate_vector_right(direction):
     x, y = direction
     return (y, -x)
