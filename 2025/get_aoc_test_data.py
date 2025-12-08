@@ -1,8 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-
-def get_aoc_example(year, day, session):
+def get_aoc_test_data(day, year, session):
     url = f"https://adventofcode.com/{year}/day/{day}"
     cookies = {"session": session}
     r = requests.get(url, cookies=cookies)
